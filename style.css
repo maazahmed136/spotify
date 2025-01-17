@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+.three button {
+    padding: 10px ;
+    margin: 3px;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+.one a span{
+    font-size: 30px;
+}
+.two{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+}
+.four{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* background-color: grey; */
+    /* color: rgba(0, 0, 0, 0.74); */
+    /* border-radius: 10px; */
+}
+.four span{
+    padding: 0 0 0 15px;
+}
+.four a span{
+    padding: 0 5px 0 0;
+}
+ 
+.home{
+    background-color:rgba(0, 0, 0, 0.027);
+    margin: 0 10px 0  0;
+    padding: 10px;
+    border-radius: 50%;
+}
+.three a {
+    text-decoration: none;
+    color: white;
+}
+.container1{
+    display: flex; 
+    /* background-color:black ; */
+    /* height: 50px; */
+    /* width: 250px; */
+    justify-content: space-between;
+    color: white;
+}
+.content a{
+    text-decoration:none ;
+    color: white;  
+}
+.content2 button{
+    padding: 10px  ;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    
+
+}
+.content2{
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 10px;
+    color: white;
+}
+.three button a{
+    color: black;
+}
+.content2 button a{
+    text-decoration: none;
+    color: black;
+}
+.content3{
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.308);
+    color: white;
+    padding: 10px;
+}
+.main{
+    height: 500px;
+    width: 554px;
+    background-color:rgba(0, 0, 0, 0.993);
+    
+}
+.content3 a{
+    text-decoration:none ;
+    color: black;
+}
+.content3 button{
+    padding: 10px  ;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.content4 a{
+   text-decoration: none; 
+   color: white;
+   margin: 10px;
+}
+.content4{
+    padding-top: 20px;
+}
+.hello a{
+    color: white;
+    padding-left: 8px;
+    text-decoration: none;
+}
+.hello{
+    margin-top: 5px; 
+}
+.hello a:hover{
+    text-decoration: underline;
+}
+.white a{
+    text-decoration: none;
+    color: black;
+    
+}
+.white span{
+    color: black;
+    
+}
+.white{
+    margin-left: 8px;
+    padding-top: 10px;
+}
+.white button{
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 5px; 
+    
+}
+ input{
+    width: 450px;
+    height: 35px;
+    border-radius: 30px;
+    padding: 10px 0 10px 30px;
+    border: 3px solid rgba(0, 0, 0, 0.041);
+    background-color: rgba(0, 0, 0, 0.062);
+    color: white;
+}
+.three a:hover{
+    font-size: 18px;
+}
+.main2{
+    display: flex;
+    
+}
+.main3{
+    /* display: inline-block; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+    background-color: black;
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    margin-left: 2px;
+    
+}
+.main3 a{
+    text-decoration: none;
+    color: white;
+}
+.project a:hover{
+    text-decoration: underline;
+}
+.me a:hover{
+    text-decoration: underline;
+}
+.pic{
+     height: 100px;
+    width: 100px;
+    color: white;
+
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.main5{
+    display: flex;
+    /* padding: 0 10px; */
+}
