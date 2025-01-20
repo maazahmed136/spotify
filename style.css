@@ -4,200 +4,317 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    height: 60px;
-    
+.head{
+    z-index: 1;
+    position: relative;
 }
-span{
-    color: white;
-    font-size: 20px;
-}
-.three button {
-    padding: 10px ;
-    margin: 3px;
-    border-radius: 30px;
-    text-decoration: none;
-    
-}
-.one a span{
-    font-size: 30px;
-}
-.two{
-    align-items: center;
-    display: flex;
-    padding: 20px;
-    border-radius: 30px;
-}
-.four{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    /* background-color: grey; */
-    /* color: rgba(0, 0, 0, 0.74); */
-    /* border-radius: 10px; */
-}
-.four span{
-    padding: 0 0 0 15px;
-}
-.four a span{
-    padding: 0 5px 0 0;
-}
- 
-.home{
-    background-color:rgba(0, 0, 0, 0.027);
-    margin: 0 10px 0  0;
-    padding: 10px;
-    border-radius: 50%;
-}
-.three a {
-    text-decoration: none;
-    color: white;
-}
-.container1{
-    display: flex; 
-    /* background-color:black ; */
-    /* height: 50px; */
-    /* width: 250px; */
-    justify-content: space-between;
-    color: white;
-}
-.content a{
-    text-decoration:none ;
-    color: white;  
-}
-.content2 button{
-    padding: 10px  ;
-    border-radius: 20px;
-    margin-top: 5px;
-    padding: 10px;
-    
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px 0 20px ;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
 }
-.content2{
-    border: 2px solid black;
-    background-color: rgba(128, 128, 128, 0.308);
-    padding: 10px;
+
+header a{
     color: white;
-}
-.three button a{
-    color: black;
-}
-.content2 button a{
     text-decoration: none;
-    color: black;
 }
-.content3{
-    border: 2px solid black;
-    background-color: rgba(128, 128, 128, 0.308);
+
+.home{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.spotifyicon{
+    width: 10%;
+    font-size: 25px;
+}
+.home input{
+    padding: 11.5px 200px 11.5px 5px;
+    background-color: rgba(128, 128, 128, 0.493);
     color: white;
-    padding: 10px;
+    border: 1px solid  rgba(128, 128, 128, 0.493);
+    font-size: 9px;
 }
-.main{
-    height: 500px;
-    width: 554px;
-    background-color:rgba(0, 0, 0, 0.993);
-    
+.home2{
+    padding:5px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.493);
+    margin: 0 10px 0 0 ;
+    font-size: 24px;
 }
-.content3 a{
-    text-decoration:none ;
-    color: black;
-}
-.content3 button{
-    padding: 10px  ;
-    border-radius: 20px;
-    margin-top: 5px;
-    padding: 10px;
-}
-.content4 a{
-   text-decoration: none; 
-   color: white;
-   margin: 10px;
-}
-.content4{
-    padding-top: 20px;
-}
-.hello a{
-    color: white;
-    padding-left: 8px;
-    text-decoration: none;
+.home2:hover{
+    font-size: 27px;
 }
 .hello{
-    margin-top: 5px; 
+    width: 20%;
 }
-.hello a:hover{
-    text-decoration: underline;
-}
-.white a{
-    text-decoration: none;
-    color: black;
-    
-}
-.white span{
-    color: black;
-    
-}
-.white{
-    margin-left: 8px;
-    padding-top: 10px;
-}
-.white button{
-    padding: 5px;
-    border-radius: 20px;
-    margin-top: 5px; 
-    
-}
- input{
-    width: 450px;
-    height: 35px;
-    border-radius: 30px;
-    padding: 10px 0 10px 30px;
-    border: 3px solid rgba(0, 0, 0, 0.041);
-    background-color: rgba(0, 0, 0, 0.062);
-    color: white;
-}
-.three a:hover{
-    font-size: 18px;
-}
-.main2{
-    display: flex;
-    
-}
-.main3{
-    /* display: inline-block; */
-    display: flex;
-    width: 100%;
-    justify-content: space-between;    
-    background-color: black;
-    border: 2px solid rgba(0, 0, 0, 0.233);
-    margin-left: 2px;
-    
-}
-.main3 a{
-    text-decoration: none;
-    color: white;
-}
-.project a:hover{
-    text-decoration: underline;
-}
-.me a:hover{
-    text-decoration: underline;
-}
-.pic{
-     height: 100px;
+.search2{
+    padding:5px 10px;
     width: 100px;
+    height: 100px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(128, 128, 128, 0.493);
+    font-size: 20.5px;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search3{
+    padding:5px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(128, 128, 128, 0.493);
+    font-size: 20.5px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.search3:hover{
     color: white;
+    font-size: 26px;
+}
+.hello a{
+    padding: 0 10px;
+}
+.hello button{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.hello button a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: grey;
+}
+.box1{
+    width: 25%;
+    /* height: 520px; */
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 10px;
+    position: fixed;
+    margin: 70px 0 00 0px;
+    padding: 10px 0;
+}
+.b1top{
+    padding: 0px 15px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.692);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.b1icon2{
+    text-align: end;
+}
+.content{
+width: 90%;
+height: 130px;
+margin: auto;   
+background-color: rgba(128, 128, 128, 0.253); 
+padding: 10px;
+border-radius: 10px ;
+color: white;
+}
+.content p{
+    padding: 5px 0;
+}
+.content button{
+    padding: 5px 13px;
+    border-radius: 10px;
+    border: 1px solid  rgba(128, 128, 128, 0.253);
+    margin: 10px 0 0 0;
 
 }
-.pic img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
+.content button a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
 }
-.main5{
-    display: flex;
-    /* padding: 0 10px; */
-}
+.content{
+    width: 90%;
+    height: 130px;
+    margin: 10px 0 0 20px;   
+    background-color: rgba(128, 128, 128, 0.253); 
+    padding: 10px;
+    border-radius: 10px ;
+    color: white;
+    }
+    .content p{
+        padding: 5px 0;
+    }
+    .content button{
+        padding: 5px 13px;
+        border-radius: 10px;
+        border: 1px solid  rgba(128, 128, 128, 0.253);
+        margin: 10px 0 0 0;
+    
+    }
+    .content button a{
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .bottom1{
+        padding: 10px 0 0 0;
+    }
+    .bottom1 a{
+        padding: 0 9px;
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .cook a{
+        font-size: 14px;
+    }
+    .bottom1 button a{
+        padding: 0px 15px;
+        display: flex;
+        font-size: 16px;
+    }
+    .bottom1 button{
+        margin: 20px 0 0 15px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.733);
+        background-color:rgba(0, 0, 0, 0.89);
+
+    }
+    .glob{
+        padding: 0 5px 00 0;
+    }
+    .box2{
+        width: 75%;
+        background-color: rgba(0, 0, 0, 0.89);
+        border-radius: 10px;
+        /* height: 600px; */
+        margin: 70px 0 0 26%;
+    }
+    .boxone{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .box2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+    }
+    .box2 h2{
+        padding: 10px ;
+    }
+    .box2 p a{
+        color: rgba(255, 255, 255, 0.582);
+    }
+    .my pic{
+        padding: 10px 0px 10px 0px;
+        position: relative;
+        width: 15%;
+    }
+    
+    .bonepic01{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .bonepic01 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .boxtwo{
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+    }
+    .bonepic02{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        border-radius: 4%;
+    }
+    .bonepic02 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 4%;
+    }
+    .boxtwo p{
+        font-size: 13px;
+    }
+    .food{
+        display: flex;
+        color: white;
+        padding: 20px 0 20px 0px;
+    }
+    .footer p a{
+        font-size: 15px;
+        padding: 10px 0;
+        color: rgba(255, 255, 255, 0.596);
+    }
+    .boot{
+        padding: 0 30px;
+    }
+    .fcon{
+        padding: 0 8px;
+        font-size: 20px;
+    }
+    .footicon{
+        padding: 0 0 0 0px;
+    }
+    .foothr{
+        width: 95%;
+        margin: auto;
+        height: .5px;
+        color: rgba(255, 255, 255, 0.144);    
+    }
+    .foot2025{
+        color: white;
+        padding: 0 0 0 45px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .top a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .foot1 p a:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    .boxone h4 a:hover{
+        text-decoration: underline;
+    }
+    .boxtwo h4 a:hover{
+        text-decoration: underline;
+    }
+  
+    
