@@ -36,7 +36,8 @@ header a{
     font-size: 25px;
 }
 .home input{
-    padding: 11.5px 200px 11.5px 5px;
+    width: 245px;
+    padding: 13px 0;
     background-color: rgba(128, 128, 128, 0.493);
     color: white;
     border: 1px solid  rgba(128, 128, 128, 0.493);
