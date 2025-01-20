@@ -248,6 +248,8 @@ color: white;
         display: flex;
         /* align-items: center; */
         justify-content: space-evenly;
+        gap: 20px;
+        margin: 0 10px;
     }
     .bonepic02{
         height: 120px;
@@ -259,6 +261,7 @@ color: white;
         width: 100%;
         height: 100%;
         border-radius: 4%;
+        
     }
     .boxtwo p{
         font-size: 13px;
