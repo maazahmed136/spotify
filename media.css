@@ -4,10 +4,12 @@
     {
         display: none;
     }
-    .boxone
-    {
+    .boxone{
+
         flex-wrap: wrap;
     }
+
+   
     .boxtwo
     {
         flex-wrap: wrap; 
@@ -53,6 +55,9 @@
     }
     .footicon{
         display: none;
+    }
+    .boot{
+        padding: 34px;
     }
     
 }
@@ -158,6 +163,74 @@
     .bonepic1
     {
         text-align: center;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:570px){
+
+    .bonepic1 img{
+        width: 50%; 
+    }
+
+
+    header
+    {
+        display: none;
+    }
+    .boxone{
+
+        flex-wrap: wrap;
+    }
+
+   
+    .boxtwo
+    {
+        flex-wrap: wrap; 
+    }
+    .food
+    {
+        flex-wrap: wrap; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container
+    {
+        flex-wrap: wrap;
+        padding: unset;
+
+    }
+    .box1
+    {
+        width: 1000px;
+        height: unset;
+        position: unset;
+        margin: unset;
+    }
+    
+    .box2
+    {
+        width: unset;
+        margin:3rem 0 0 0;
+    }
+    .bonepic02
+    {
+        margin: auto;
+    }
+    .bonepic1
+    {
+        text-align: center;
+    }
+    .boxtwo p{
+        width: 100px;
+        font-size: 10px;
+    }
+    .footicon{
+        display: none;
+    }
+    .boot{
+        padding: 34px;
     }
 }
 
