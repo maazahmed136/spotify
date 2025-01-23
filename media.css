@@ -6,20 +6,23 @@
     }
     .boxone
     {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .boxtwo
     {
-        flex-direction: column; 
+        flex-wrap: wrap; 
     }
     .food
     {
-        flex-direction: column; 
+        flex-wrap: wrap; 
         text-align: center;
+        align-items: center;
+        justify-content: center;
+        
     }
     .container
     {
-        flex-direction: column; 
+        flex-wrap: wrap;
         padding: unset;
 
     }
@@ -44,6 +47,14 @@
     {
         text-align: center;
     }
+    .boxtwo p{
+        width: 100px;
+        font-size: 10px;
+    }
+    .footicon{
+        display: none;
+    }
+    
 }
 
 
