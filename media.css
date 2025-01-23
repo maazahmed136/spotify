@@ -1,0 +1,152 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+
+    header
+    {
+        display: none;
+    }
+    .boxone
+    {
+        flex-direction: column;
+    }
+    .boxtwo
+    {
+        flex-direction: column; 
+    }
+    .food
+    {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .container
+    {
+        flex-direction: column; 
+        padding: unset;
+
+    }
+    .box1
+    {
+        width: unset;
+        height: unset;
+        position: unset;
+        margin: unset;
+    }
+    
+    .box2
+    {
+        width: unset;
+        margin:3rem 0 0 0;
+    }
+    .bonepic02
+    {
+        margin: auto;
+    }
+    .bonepic1
+    {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:571px) and (max-width:720px) {
+
+    header
+    {
+        display: none;
+    }
+    .boxone
+    {
+        flex-wrap: wrap;
+    }
+    .boxtwo
+    {
+        flex-wrap: wrap;
+    }
+    .food
+    {
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .container
+    {
+        flex-wrap: wrap; 
+        padding: unset;
+
+    }
+    .box1
+    {
+        width: unset;
+        height: unset;
+        position: unset;
+        /* margin: unset; */
+        width: 1000px;
+        height: 500px;
+    }
+    
+    .box2
+    {
+        width: unset;
+        margin:3rem 0 0 0;
+    }
+    .bonepic02
+    {
+        margin: auto;
+    }
+    .bonepic1
+    {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:721px) and (max-width:1200px) {
+
+    header
+    {
+        display: none;
+    }
+    .boxone
+    {
+        flex-wrap: wrap;
+        
+    }
+    .boxtwo
+    {
+      flex-wrap: wrap;  
+    }
+    .food
+    {
+        flex-wrap: wrap; 
+        text-align: center;
+    }
+    .container
+    {
+        flex-wrap: wrap;
+        padding: unset;
+
+    }
+    .box1
+    {
+        width: unset;
+        height: unset;
+        position: unset;
+        margin: unset;
+        width: 1000px;
+        /* height: 400px; */
+    }
+    
+    .box2
+    {
+        width: unset;
+        margin:3rem 0 0 0;
+    }
+    .bonepic02
+    {
+        margin: auto;
+    }
+    .bonepic1
+    {
+        text-align: center;
+    }
+}
+
